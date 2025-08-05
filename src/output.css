@@ -240,8 +240,8 @@
   .w-65 {
     width: calc(var(--spacing) * 65);
   }
-  .w-150 {
-    width: calc(var(--spacing) * 150);
+  .w-120 {
+    width: calc(var(--spacing) * 120);
   }
   .w-200 {
     width: calc(var(--spacing) * 200);
@@ -481,6 +481,11 @@
   .max-sm\:w-24 {
     @media (width < 40rem) {
       width: calc(var(--spacing) * 24);
+    }
+  }
+  .max-sm\:w-60 {
+    @media (width < 40rem) {
+      width: calc(var(--spacing) * 60);
     }
   }
   .max-sm\:w-120 {
